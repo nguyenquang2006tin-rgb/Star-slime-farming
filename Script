@@ -24,7 +24,7 @@ local TeleportCheck = false
 game.Players.LocalPlayer.OnTeleport:Connect(function(State)
 if TeleportCheck == true then return end
 		TeleportCheck = true
-    	queueteleport("loadstring(game:HttpGet('https://pastebin.com/raw/a3HBkA1B'))()")
+    	queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/nguyenquang2006tin-rgb/Star-slime-farming/refs/heads/main/Script'))()")
 
 end)
 repeat wait() until game.Players.LocalPlayer.PlayerGui:FindFirstChild("MainMenu")
